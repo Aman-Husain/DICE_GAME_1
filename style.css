@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+    text-align: center;
+}
+body{
+    background-color: cadetblue;
+}
+h1{
+    font-family: 'Lobster',cursive;
+    font-size: 3em;
+    color:aquamarine;
+
+}
+.dice{
+    text-align: center;
+    display:inline-block;
+    margin: 100px 0;
+}
+.Img1
+{
+    width:80%;
+}
+p{
+    font-size: 2rem;
+    color:rgb(5,54,160);
+    font-family: 'Indie Flower',cursive;
+}
+button{
+    margin-left: 610px;
+    margin-bottom: 50px;
+    padding:10px 40px;
+    border-radius: 10px;
+    /* outline: none; */
+    border:none;
+    background-color:rgb(63, 70, 143);
+    color:White;
+    font-family: cursive;
+    font-weight: bold;
+}
+button:active{
+    background-color: blueviolet;
+    transition: 1.5s;
+    transform: scale(.1);
+    box-shadow: 2px 2px .9 blue;
+}
+button:hover{
+    cursor: pointer;
+}
